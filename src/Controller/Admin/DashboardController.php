@@ -35,4 +35,5 @@ class DashboardController extends AbstractDashboardController
         yield MenuItem::linkToCrud('Films', 'fas fa-film', Film::class);
         yield MenuItem::linkToCrud('Plateformes', 'fas fa-server', Platforme::class);
     }
+
 }
